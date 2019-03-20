@@ -131,6 +131,7 @@ public class Practice06Test {
 			}
 		} catch (Exception e) {
 			// Do nothing
+			e.printStackTrace();
 		} finally {
 			System.out.println("====================");
 			System.out.println("Grade for this assignment: " + grade + "%");
